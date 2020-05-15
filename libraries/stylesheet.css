@@ -1,0 +1,48 @@
+body {margin: 0; padding: 0;}   
+header{width: 100%;}
+main{width: 100%;}
+footer{width: 100%;}
+ul{margin: 0; padding: 0; list-style: none;}
+nav {float: left; width: 100%; background: black; font-weight: bold; font-family: Verdana,sans-serif; color: white;}
+    nav li{float: left;}
+
+/*Smartphone*/
+@media only screen and (max-width: 480px){
+
+nav{height: 50px; padding-left: 25%;}
+    nav li{width: 100%; display: none;}
+
+.ind-botao{position: absolute; width: 65%; top: 3px; right: 0; cursor: pointer; padding-right: 10%; text-align: right;}
+    
+    .ind-logo{position: absolute; width: 25%; left: 0; top: 0; text-align: center;}
+    .ind-logo img{margin-top: 4px; max-height: 40px;}
+
+}
+
+
+
+/*Tablet*/
+@media only screen and (min-width: 481px) and (max-width: 768px){
+
+nav{height: 80px; padding-left: 25%;}
+    nav li{width: 100%; display: none;}
+
+    .ind-botao{position: absolute; width: 65%; top: 15px; right: 0; cursor: pointer; padding-right: 10%; text-align: right;}
+    .ind-logo{position: absolute; width: 25%; left: 0; top: 0; text-align: center;}
+    .ind-logo img{margin-top: 4px; max-height: 55px;}
+}
+
+
+
+
+/*Desktop*/
+@media only screen and (min-width: 769px){
+
+    nav{height: 40px; padding-left: 25%; padding-top: 15px;}
+        nav li{width: 15%; text-align: center;}
+
+.ind-botao{display: none;}
+
+.ind-logo{position: absolute; width: 25%; left: 0; top: 0; text-align: center;}
+    .ind-logo img{max-width: 100%;}
+}
