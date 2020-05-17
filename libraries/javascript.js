@@ -1,7 +1,7 @@
 "use strict";
 
 $(document).ready(function(){
-    $('#menu2').click(function(){
+    $('#menu').click(function(){
       $('nav li').toggle();
     }) 
 });
