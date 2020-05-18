@@ -1,19 +1,33 @@
-body {margin: 0; padding: 0;}  
+body {margin: 0; padding: 0; overflow-x: hidden;}  
 
-header{width: 100%;}
+header{width: 100%; float: left;}
 
-main{width: 100%;}
+main{width: 100%; float: left;}
 
-footer{width: 100%;}
+footer{width: 100%; float: left;}
 
 ul{margin: 0; padding:0; list-style: none;}
 
-nav {float: left; width: 100%; font-weight: bold; font-family: Verdana,sans-serif; color: white;}
+nav {float: left; width: 100%; font-weight: bold; font-family: Verdana,sans-serif; color: #ffffff;}
     nav li{float: left; cursor: pointer;}
+    nav li a{color: #FFFFFF; text-decoration: none;}
 
 .ind-topo {float: left; width: 100%; background: #000000;}
 
-.ind-logo{position: absolute; width: 25%; left: 0; top: 0; text-align: center;}
+.ind-logo{position: absolute; width: 25%; left: 0; top: 0; text-align: center; z-index: 2;}
+
+.ind-slide{float: left; width: 100%; z-index: 1; }
+    .ind-slide img{width: 100%;}
+    .ind-slide picture{width: 100%;}
+
+.ind-anuncio{float: left; font-family: Verdana, sans-serif; font-size: 16px;}
+
+.ind-anuncio-title{float: left; width: 100%; padding: 10px 0; text-align: center; color: #FFFFFF; background: #000000; font-weight: bold; }
+
+.ind-anuncio-image{float: left; width: 100%;} 
+    .ind-anuncio-image img{width: 100%; max-height: 200px;}
+
+.ind-anuncio-texto{float: left; width: 100%; padding: 10px 0; text-align: center; line-height: 25px; }
 
 
 
@@ -27,7 +41,12 @@ nav {float: left; width: 100%; font-weight: bold; font-family: Verdana,sans-seri
 
 .ind-botao{position: absolute; width: 65%; top: 3px; right: 0px; cursor: pointer; padding-right: 10%; text-align: right;}
     
-    .ind-logo img{margin-top: 3px; max-height: 40px;}
+    .ind-logo img{margin-top: 3px; max-height: 30px;}
+
+.ind-slide{height: 200px;}
+    .ind-slide img{max-height: 200px;}
+
+.ind-anuncio{width:95%; height: 200px;  margin: 5px 2.5% 150px 2.5%;}
 
 }
 
@@ -45,6 +64,12 @@ nav {float: left; width: 100%; font-weight: bold; font-family: Verdana,sans-seri
 .ind-botao{position: absolute; width: 65%; top: 9px; right: 0; cursor: pointer; padding-right: 10%; text-align: right;}
     
     .ind-logo img{margin-top: 3px; max-height: 50px;}
+
+.ind-slide{height: 200px;}
+    .ind-slide img{max-height: 200px;}
+
+    .ind-anuncio{width:45%; height: 200px;  margin: 20px 2.5% 100px 2.5%;}
+
 }
 
 
@@ -55,11 +80,24 @@ nav {float: left; width: 100%; font-weight: bold; font-family: Verdana,sans-seri
 
 nav{position: absolute; padding-left: 25%;}
     nav li{width: 15%; padding-top: 20px; text-align: center;}
-    nav li:last-child{color: #FFB914;}
+    nav li:last-child a{color: #FFB914;}
+    nav li:hover {
+        border-top: 7px solid #FFB914;
+        -webkit-transition: all 0.7s ease;
+        -moz-transition: all 0.7s ease;
+        -o-transition: all 0.7s ease;
+        transition: all 0.7s ease;
+    }
+    nav li:hover a{color: #FFB914;}
 
 .ind-topo{height: 60px;}
 
 .ind-botao{display: none;}
 
     .ind-logo img{max-width: 100%;}
+
+.ind-slide{height: 450px;}
+    .ind-slide img{max-height: 450px;}
+
+.ind-anuncio{width: 20%; height: 300px;  margin: 30px 2.5% 40px 2.5%;}
 }

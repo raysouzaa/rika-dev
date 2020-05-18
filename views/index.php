@@ -1,63 +1,96 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html  lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    
+
+    <?php require_once "../libraries/head.php";?>
+
     <title>RICA MAKE E ACESSÓRIOS - Venda de makes e acessórios</title>
-    
-    <meta name="description" content="A Rica  é uma loja virtual para venda de maquiagens e acessórios em geral com os melhores preços do Brasil. Contamos comm milhares de produtos disponíveis.">
-    
-    <meta name="author" content="Raiany de Souza">
-   
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
-    
-    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="../libraries/stylesheet.css">
+    <meta name="description" content="A Rica é uma loja virtual para venda de maquiagens e acessórios em geral com os melhores preços do Brasil.">
 
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-
-    <script type="text/javascript" src="../libraries/javascript.js"></script>
+    <script src="../libraries/jquery.cycle.lite.js"></script>
 </head>
-
-
-
 
 <body>
     <header>
-        <div class="ind-topo"></div>
+
+    <?php require_once "../libraries/body.php";?>
 
 
-        <nav>
-            <ul>
-                <li><a href="index">Home</a></li>
-                <li><a href="sobrenos">Sobre nós</a></li>
-                <li><a href="anuncios">Anúncios</a></li>
-                <li><a href="contato">Contato</a></li>
-                <li><a href="cadastro">Cadastre-se</a></li>
-            </ul>
-        </nav>
+    <div class="ind-slide">
+    <picture>
+        <source media="(max-width: 480px)" srcset="../images/smartphone-slide1.jpg">
+        <source media="(min-width: 481px) and (max-width: 768px)" srcset="../images/tablet-slide1.jpg">
+        <source media="(min-width: 769px)" srcset="../images/desktop-slide1.jpg">
+        <img src="../images/smartphone-slide1.jpg" alt="RIKA STORE MAKEUP - Slide 1" title="RIKA STORE MAKEUP - Slide 1">
+    </picture>
 
-        <div  id="menu" class="ind-botao">
-            <img src="../images/botao.png" alt="Botão Mobile" title="Botao Mobile">
-        </div>
+    <picture>
+        <source media="(max-width: 480px)" srcset="../images/smartphone-slide2.jpg">
+        <source media="(min-width: 481px) and (max-width: 768px)" srcset="../images/tablet-slide2.jpg">
+        <source media="(min-width: 769px)" srcset="../images/desktop-slide2.jpg">
+        <img src="../images/smartphone-slide2.jpg" alt="RIKA STORE MAKEUP - Slide 2" title="RIKA STORE MAKEUP - Slide 2">
+    </picture>
 
-        <div class="ind-logo">
-            <picture>
-                <source media="(max-width: 480px)" srcset="../images/logo-mobile.png">
-                <source media="(min-width: 481px) and (max-width: 768px)" srcset="../images/logo-mobile.png">
-                <source media="(min-width: 769px)" srcset="../images/logo.png">
-                <img src="../images/logo-mobile.png" alt="Logomarca DIVA MAKE" title="Logomarca DIVA MAKE">
-            </picture>
-        </div>
+    <picture>
+        <source media="(max-width: 480px)" srcset="../images/smartphone-slide3.jpg">
+        <source media="(min-width: 481px) and (max-width: 768px)" srcset="../images/tablet-slide3.jpg">
+        <source media="(min-width: 769px)" srcset="../images/desktop-slide3.jpg">
+        <img src="../images/smartphone-slide3.jpg" alt="RIKA STORE MAKEUP - Slide 3" title="RIKA STORE MAKEUP - Slide 3">
+    </picture>
 
-
+    </div>
     </header>
 
     <main>
+        <div class="ind-anuncio">
+            <div class="ind-anuncio-title">Sérum Facial</div>
+        <div class="ind-anuncio-image"><img src="../images/anuncios/image-1.jpg" alt="Make 1"></div>
+        <div class="ind-anuncio-texto">Sérum Facial Pró-Age <br> RENOVA Ruby Rose</div>
+        </div>
+
+        <div class="ind-anuncio">
+            <div class="ind-anuncio-title">Sérum Facial</div>
+        <div class="ind-anuncio-image"><img src="../images/anuncios/image-1.jpg" alt="Make 1"></div>
+        <div class="ind-anuncio-texto">Sérum Facial Pró-Age <br> RENOVA Ruby Rose</div>
+        </div>
+
+        <div class="ind-anuncio">
+            <div class="ind-anuncio-title">Sérum Facial</div>
+        <div class="ind-anuncio-image"><img src="../images/anuncios/image-1.jpg" alt="Make 1"></div>
+        <div class="ind-anuncio-texto">Sérum Facial Pró-Age <br> RENOVA Ruby Rose</div>
+        </div>
+
+        <div class="ind-anuncio">
+            <div class="ind-anuncio-title">Sérum Facial</div>
+        <div class="ind-anuncio-image"><img src="../images/anuncios/image-1.jpg" alt="Make 1"></div>
+        <div class="ind-anuncio-texto">Sérum Facial Pró-Age <br> RENOVA Ruby Rose</div>
+        </div>
+
+        <div class="ind-anuncio">
+            <div class="ind-anuncio-title">Sérum Facial</div>
+        <div class="ind-anuncio-image"><img src="../images/anuncios/image-1.jpg" alt="Make 1"></div>
+        <div class="ind-anuncio-texto">Sérum Facial Pró-Age <br> RENOVA Ruby Rose</div>
+        </div>
+
+        <div class="ind-anuncio">
+            <div class="ind-anuncio-title">Sérum Facial</div>
+        <div class="ind-anuncio-image"><img src="../images/anuncios/image-1.jpg" alt="Make 1"></div>
+        <div class="ind-anuncio-texto">Sérum Facial Pró-Age <br> RENOVA Ruby Rose</div>
+        </div>
+
+        <div class="ind-anuncio">
+            <div class="ind-anuncio-title">Sérum Facial</div>
+        <div class="ind-anuncio-image"><img src="../images/anuncios/image-1.jpg" alt="Make 1"></div>
+        <div class="ind-anuncio-texto">Sérum Facial Pró-Age <br> RENOVA Ruby Rose</div>
+        </div>
+
+        <div class="ind-anuncio">
+            <div class="ind-anuncio-title">Sérum Facial</div>
+        <div class="ind-anuncio-image"><img src="../images/anuncios/image-1.jpg" alt="Make 1"></div>
+        <div class="ind-anuncio-texto">Sérum Facial Pró-Age <br> RENOVA Ruby Rose</div>
+        </div>
 
     </main>
 
@@ -68,7 +101,7 @@
     <footer>
 
 
-    
+
     </footer>
 
 
