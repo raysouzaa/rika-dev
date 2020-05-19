@@ -5,9 +5,9 @@
 
     <?php require_once "../libraries/head.php";?>
 
-    <title>RICA MAKE E ACESSÓRIOS - Venda de makes e acessórios</title>
+    <title>Rika Store Makeup - Venda de makes e acessórios</title>
 
-    <meta name="description" content="A Rica é uma loja virtual para venda de maquiagens e acessórios em geral com os melhores preços do Brasil.">
+    <meta name="description" content="A Rika é uma loja virtual para venda de maquiagens e acessórios em geral com os melhores preços do Brasil.">
 
     <script src="../libraries/jquery.cycle.lite.js"></script>
 </head>
@@ -99,8 +99,7 @@
 
 
     <footer>
-
-
+    <?php require_once "../libraries/footer.php";?>
 
     </footer>
 

@@ -25,7 +25,7 @@ nav {float: left; width: 100%; font-weight: bold; font-family: Verdana,sans-seri
 .ind-anuncio-title{float: left; width: 100%; padding: 10px 0; text-align: center; color: #FFFFFF; background: #000000; font-weight: bold; }
 
 .ind-anuncio-image{float: left; width: 100%;} 
-    .ind-anuncio-image img{width: 100%; max-height: 200px;}
+    .ind-anuncio-image img{width: 100%; max-height: 230px;}
 
 .ind-anuncio-texto{float: left; width: 100%; padding: 10px 0; text-align: center; line-height: 25px; }
 
@@ -48,6 +48,12 @@ nav {float: left; width: 100%; font-weight: bold; font-family: Verdana,sans-seri
 
 .ind-anuncio{width:95%; height: 200px;  margin: 5px 2.5% 150px 2.5%;}
 
+.Footer{float: left; width: 100%; background: #FFB914; border-top: 20px solid rgb(219, 154, 2); font-family: Verdana, sans-serif; font-size: 17px; line-height: 35px;}
+    .FooterTexto{float: left; width: 90%; margin: 0 5%; text-align: center;}
+    
+    .FooterImage{float: left; width: 100%; text-align: center;}
+        .FooterImage img{max-height: 25px;}
+
 }
 
 
@@ -69,6 +75,12 @@ nav {float: left; width: 100%; font-weight: bold; font-family: Verdana,sans-seri
     .ind-slide img{max-height: 200px;}
 
     .ind-anuncio{width:45%; height: 200px;  margin: 20px 2.5% 100px 2.5%;}
+
+.Footer{float: left; width: 100%; background: #FFB914; padding: 20px; border-top: 20px solid rgb(219, 154, 2); font-family: Verdana, sans-serif; font-size: 17px; line-height: 35px;}
+    .FooterTexto{float: left; width: 100%; text-align: center; margin-bottom: 20px;}
+    
+    .FooterImage{float: left; width: 100%; text-align: center;}
+        .FooterImage img{max-height: 30px;}
 
 }
 
@@ -99,5 +111,11 @@ nav{position: absolute; padding-left: 25%;}
 .ind-slide{height: 450px;}
     .ind-slide img{max-height: 450px;}
 
-.ind-anuncio{width: 20%; height: 300px;  margin: 30px 2.5% 40px 2.5%;}
+.ind-anuncio{width: 20%; height: 300px;  margin: 30px 2.5% 30px 2.5%;}
+
+.Footer{float: left; width: 100%; background: #FFB914; padding: 20px; border-top: 20px solid rgb(219, 154, 2); font-family: Verdana, sans-serif; font-size: 17px; line-height: 35px;}
+    .FooterTexto{float: left; margin-left: 5%; width: 60%;}
+    
+    .FooterImage{float: left; margin-right: 5%; width: 30%; text-align: right;}
+        .FooterImage img{max-height: 70px;}
 }
