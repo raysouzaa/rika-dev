@@ -29,7 +29,12 @@ nav {float: left; width: 100%; font-weight: bold; font-family: Verdana,sans-seri
 
 .ind-anuncio-texto{float: left; width: 100%; padding: 10px 0; text-align: center; line-height: 25px; }
 
+.ind-banner{float: left; width: 100%;}
+    .ind-banner img {width: 100%;}
 
+
+.TextoResponsivo{float: left; width: 90%; margin: 20px 5% 40px 5%; text-align: justify; line-height: 35px; font-size: 18px; font-family: Verdana, sans-serif;}
+    .TextoResponsivo img{max-width: 100%;}
 
 /*Smartphone*/
 @media only screen and (max-width: 480px){
@@ -53,7 +58,6 @@ nav {float: left; width: 100%; font-weight: bold; font-family: Verdana,sans-seri
     
     .FooterImage{float: left; width: 100%; text-align: center;}
         .FooterImage img{max-height: 25px;}
-
 }
 
 
@@ -81,7 +85,6 @@ nav {float: left; width: 100%; font-weight: bold; font-family: Verdana,sans-seri
     
     .FooterImage{float: left; width: 100%; text-align: center;}
         .FooterImage img{max-height: 30px;}
-
 }
 
 
